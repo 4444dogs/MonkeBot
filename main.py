@@ -21,10 +21,18 @@ async def usersonline(context):
 async def rgbtomonke(context, r, g, b):
     m1raw = int(r) / 25.5
     m2raw = int(g) / 25.5
-    m3raw = int(b )/ 25.5
+    m3raw = int(b)/ 25.5
     m1 = round(m1raw)
     m2 = round(m2raw)
     m3 = round(m3raw)
     await context.message.channel.send(str(m1) + " " + str(m2) + " " + str(m3))
+@client.command(name='invite')
+async def invite(context):
+    await context.message.channel.send("https://discord.com/api/oauth2/authorize?client_id=980500169323843655&permissions=2048&scope=bot%20applications.commands")
+@client.event
+async def on_ready():
+    print("MonkeBot is now active.")
+    customActivity = discord.Game("m!invite")
+    await client.change_presence(activity=customActivity)
 
 client.run(TOKENFILE.TOKEN)

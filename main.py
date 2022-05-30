@@ -26,6 +26,15 @@ async def rgbtomonke(context, r, g, b):
     m2 = round(m2raw)
     m3 = round(m3raw)
     await context.message.channel.send(str(m1) + " " + str(m2) + " " + str(m3))
+@client.command(name='monketorgb')
+async def monketorgb(context, m1, m2, m3):
+    Rraw = int(m1) * 25.5
+    Graw = int(m2) * 25.5
+    Braw = int(m3) * 25.5
+    R = round(Rraw)
+    G = round(Graw)
+    B = round(Braw)
+    await context.message.channel.send(str(R) + " " + str(G) + " " + str(B))
 @client.command(name='invite')
 async def invite(context):
     await context.message.channel.send("https://discord.com/api/oauth2/authorize?client_id=980500169323843655&permissions=2048&scope=bot%20applications.commands")

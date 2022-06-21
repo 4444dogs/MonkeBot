@@ -20,6 +20,7 @@ Requirements:
 1. Python 3.10.4
 2. This Command: `pip install discord, requests, beautifulsoup4, html2text`
 3. A Discord Bot (No functionality required)
+4. A IDE that supports Python (VS Code is Recomended)
 
 Setup:
 1. Create a new file inside of the repo named `TOKENFILE.py`

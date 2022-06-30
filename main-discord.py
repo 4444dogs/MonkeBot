@@ -1,3 +1,5 @@
+# NO LONGER SUPPORTED BY 4444dogs; OUT OF DATE
+
 import discord
 from discord.ext import commands
 import requests

@@ -37,6 +37,12 @@ class Client(commands.CommandsClient):
         G = round(Graw)
         B = round(Braw)
         await ctx.message.channel.send(str(R) + " " + str(G) + " " + str(B))
+    @commands.command(name='shutdown')
+    async def shutdown(self, ctx: commands.Context):
+        if ctx.message.author.id == "01G66YPF9TFHZDCREQRT1JNTH5":
+            await ctx.message.channel.send("Okay! MonkeBot is being shutdown.")
+            exit()
+
 
 
 async def main():

@@ -7,7 +7,6 @@ This Revolt Bot is in it's beta stage and most commands have not been added yet.
 ## Using MonkeBot
 
 ### Invite
-PLEASE NOTE: If you choose to simply invite this bot in the beta stage it will be down 90% of the time.
 
 To invite MonkeBot just simply click the link below.
 

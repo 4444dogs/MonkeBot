@@ -1,5 +1,5 @@
 # About
-MonkeBot basically alowws you to get stats about Gorilla Tag that is usually not available via Revolt.
+MonkeBot basically allows you to get stats about Gorilla Tag that is usually not available via Revolt.
 
 ## NOTICE
 This Revolt Bot is in it's beta stage and most commands have not been added yet.
